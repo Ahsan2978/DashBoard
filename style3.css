@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .sidebar h2 {
+    margin: 0 0 20px;
+    font-size: 22px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li.active,
+  .sidebar ul li:hover {
+    background-color: #444;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .main-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .stat h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .stat p {
+    font-size: 24px;
+    color: green;
+    margin: 0;
+  }
+  
+  .activity-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .activity {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 48%;
+  }
+  
+  .activity h2 {
+    margin-bottom: 10px;
+  }
+  
+  .placeholder {
+    background-color: #ddd;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+  }
